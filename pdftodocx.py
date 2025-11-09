@@ -7,3 +7,4 @@ docx_file = 'output/resume.docx'
 cv = Converter(pdf_file)
 cv.convert(docx_file)      # all pages by default
 cv.close()
+#output file is saved as 'output/resume.docx'
